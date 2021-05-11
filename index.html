@@ -1,261 +1,531 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="zh-CN">
+
 <head>
-  <meta charset="utf-8">
-  
-  <title>忠爱golang</title>
-  <meta name="author" content="义薄云天">
-  
-  <meta name="description" content="this study golang book">
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--Setting-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="忠爱golang">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="theme-version" content="1.2.3">
+    <meta name="root" content="/">
+    <link rel="dns-prefetch" href="https://gsd1508.github.io">
+    <!--SEO-->
 
-  
-  <meta property="og:site_name" content="忠爱golang"/>
+<meta name="keywords" content="golang" />
 
-  
-    <meta property="og:image" content=""/>
-  
 
-  <link href="/favicon.png" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="忠爱golang" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
+<meta name="description" content="this study golang book" />
+
+
+<meta name="robots" content="all" />
+<meta name="google" content="all" />
+<meta name="googlebot" content="all" />
+<meta name="verify" content="all" />
+    <!--Title-->
+
+<title>
+    
+    忠爱golang
+</title>
+
+<link rel="alternate" href="/atom.xml" title="忠爱golang" type="application/atom+xml">
+
+
+<link rel="icon" href="/favicon.ico">
+
+    
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css?rev=3.3.7.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css?rev=4.7.0.css">
+<link rel="stylesheet" href="/css/style.css?rev=@@hash.css">
+
+    
+<div class="hide">
+    <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan class='cnzz_stat_icon_1263868967 hide' %3E%3Cscript%20src%3D%22https%3A%2F%2Fs95.cnzz.com%2Fz_stat.php%3Fweb_id%3D1272564536%22%3E%3C%2Fscript%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1263868967%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+
+
+
+
+    
 
 <meta name="generator" content="Hexo 5.4.0"></head>
-
-
+<!--[if lte IE 8]>
+<style>
+    html{ font-size: 1em }
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
+<![endif]-->
 <body>
-  <header id="header"><div class="meta inner">
-  <h1><a href="/">忠爱golang</a></h1>
-  <h2><a href="/">快乐学习</a></h2>
-  <nav id="main-nav">
-    <ul>
-      
-      <li><a href="/archives">归类</a></li>
-      
-      <li><a href="/atom.xml">订阅</a></li>
-      
-    </ul>
-    <div class="clearfix"></div>
-  </nav>
-</div>
-<div class="clearfix"></div>
+    <header class="main-header"  style="background-image:url(
+    https://hexo-theme-snippet-1251680922.cos.ap-beijing.myqcloud.com/img/banner.jpg)"
+     >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title='义薄云天'>
+            <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
+        </a>
+        <div class="branding">
+            <!--<h2 class="text-hide">Snippet主题,从未如此简单有趣</h2>-->
+            
+            <img src="/img/branding.png" alt="Snippet 博客主题" class="img-responsive center-block">
+            
+        </div>
+    </div>
 </header>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2021/05/12/post/">post</a></h1>
-  
-
-      
-        <time datetime="2021-05-11T16:24:31.000Z">2021-05-12</time>
-      
-    </header>
-    <div class="entry">
-      
-        <h3 id="我的妹妹····"><a href="#我的妹妹····" class="headerlink" title="我的妹妹····"></a>我的妹妹····</h3><p>e2e2e2eq2e<br>eqweqeqwe<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;<br>select * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取年月日查询select * from date_format(FROM_UNIXTIME(update_at), ‘%Y-%m-%d’) =  date_format(now(), ‘%Y-%m-%d’)# 查询时间戳SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, ‘%Y-%m-%d’)= ‘2020-12-09’;</p>
-
-      
+    <nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header"><span class="nav-toggle-button collapsed pull-right" data-toggle="collapse" data-target="#main-menu" id="mnav">
+                        <span class="sr-only"></span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <a class="navbar-brand" href="https://gsd1508.github.io">
+                        忠爱golang</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="menu">
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/"><i class="fa "></i>
+                                首页</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/前端/"><i class="fa "></i>
+                                前端</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/后端/"><i class="fa "></i>
+                                后端</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/工具/"><i class="fa "></i>
+                                工具</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/archives/"><i class="fa "></i>
+                                时间轴</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2021/05/11/golang交叉编译/">golang交叉编译</a></h1>
-  
-
-      
-        <time datetime="2021-05-11T12:16:48.000Z">2021-05-11</time>
-      
-    </header>
-    <div class="entry">
-      
-        <h3 id="golang交叉编译"><a href="#golang交叉编译" class="headerlink" title="golang交叉编译"></a>golang交叉编译</h3><p>```<br>   测试下先</p>
-
-      
-    </div>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2021/05/11/mysql设置sql 各种设置/">设置updateTime 时间触发器</a></h1>
-  
-
-      
-        <time datetime="2021-05-11T12:16:48.000Z">2021-05-11</time>
-      
-    </header>
-    <div class="entry">
-      
-        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 命令 </span><br><span class="line">alter table leisuDb.courtTableListOne modify column updateTimeAt timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp();</span><br></pre></td></tr></table></figure>
-
-<h4 id="时间戳查询"><a href="#时间戳查询" class="headerlink" title="时间戳查询"></a>时间戳查询</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">select * from gungun_zuqiu_odds where update_at = unix_timestamp(&#x27;2019-12-11 13:00:31&#x27;);</span><br><span class="line">只取年月日查询</span><br><span class="line">select * from date_format(FROM_UNIXTIME(update_at), &#x27;%Y-%m-%d&#x27;) =  date_format(now(), &#x27;%Y-%m-%d&#x27;)</span><br><span class="line"># 查询时间戳</span><br><span class="line">SELECT asian_capot_m,asian_capot_tie,asian_capot_g,big,little,size_t from gungun_zuqiu_odds  where FROM_UNIXTIME(create_at, &#x27;%Y-%m-%d&#x27;)= &#x27;2020-12-09&#x27;;</span><br></pre></td></tr></table></figure>
-
-<h4 id="mysql-相差8个小时"><a href="#mysql-相差8个小时" class="headerlink" title="mysql 相差8个小时"></a>mysql 相差8个小时</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 命令</span><br><span class="line">select now();</span><br><span class="line">show variables like &#x27;%time_zone%&#x27;;</span><br><span class="line">set global time_zone = &#x27;+8:00&#x27;;</span><br><span class="line">flush privileges;</span><br></pre></td></tr></table></figure>
-
-<h4 id="关于修改MySQL数据库字符集"><a href="#关于修改MySQL数据库字符集" class="headerlink" title="关于修改MySQL数据库字符集"></a>关于修改MySQL数据库字符集</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter database dev_score default character set utf8 COLLATE utf8_general_ci;</span><br></pre></td></tr></table></figure>
-
-<h4 id="mysql-设置触发器-可触发表每一行有变化的数据"><a href="#mysql-设置触发器-可触发表每一行有变化的数据" class="headerlink" title="mysql 设置触发器(可触发表每一行有变化的数据)"></a>mysql 设置触发器(可触发表每一行有变化的数据)</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">delimiter $</span><br><span class="line">create trigger credit_get</span><br><span class="line">after update on gungun_zuqiu_competition</span><br><span class="line">for each row</span><br><span class="line">begin</span><br><span class="line">if (select id from gungun_zuqiu_competitionTemp where id = NEW.id) = NEW.id</span><br><span class="line">then</span><br><span class="line">update gungun_zuqiu_competitionTemp set id = NEW.id,lsid =NEW.lsid,begin_date = NEW.begin_date,lsname = NEW.lsname,begin1=NEW.begin1,team1 = NEW.team1,team2 = NEW.team2,</span><br><span class="line">aside1=NEW.aside1,aside2 = NEW.aside2,assault1=NEW.assault2,control1=NEW.assault1,control2=NEW.control2,corner1=NEW.corner1,</span><br><span class="line">corner2=NEW.corner2,door1=NEW.door1,door2=NEW.door2,half1=NEW.half1,half2=NEW.half2,red1=NEW.red1,red2=NEW.red2,risk1=NEW.risk1,</span><br><span class="line">risk2 = NEW.risk2,s1= NEW.s1,s2=NEW.s2,yellow1=NEW.yellow1,yellow2 = NEW.yellow2,zheng1= NEW.zheng1,zheng2 =NEW.zheng2,dot1=NEW.dot1,</span><br><span class="line">dot2 = NEW.dot2,status = NEW.status where id = NEW.id;</span><br><span class="line">elseif NEW.status = 1 or NEW.status=2 or NEW.status = 3 or NEW.status = -1 or NEW.status = 0</span><br><span class="line">then</span><br><span class="line">insert into gungun_zuqiu_competitionTemp(id,lsid,begin_date,lsname,begin1,team1,team2,aside1,</span><br><span class="line">aside2,assault1,assault2,control1,control2,corner1,corner2,door1,door2,half1,half2,red1,red2,risk1,risk2,</span><br><span class="line">s1,s2,yellow1,yellow2,zheng1,zheng2,dot1,dot2,</span><br><span class="line">team1id,team2id,ynamicTime,st_at,status,placeName)</span><br><span class="line">values (NEW.id,NEW.lsid,NEW.begin_date,NEW.lsname,NEW.begin1,NEW.team1,NEW.team2,NEW.aside1,NEW.aside2,NEW.assault1,NEW.assault2,</span><br><span class="line">NEW.control1,NEW.control2,NEW.corner1,NEW.corner2,NEW.door1,NEW.door2,NEW.half1,NEW.half2,NEW.red1,NEW.red2,NEW.risk1,</span><br><span class="line">NEW.risk2,NEW.s1,NEW.s2,NEW.yellow1,NEW.yellow2,NEW.zheng1,NEW.zheng2,NEW.dot1,NEW.dot2,NEW.team1id,NEW.team2id,NEW.ynamicTime,</span><br><span class="line">NEW.st_at,NEW.status,NEW.placeName);</span><br><span class="line">end if;</span><br><span class="line">end$</span><br></pre></td></tr></table></figure>
-
-<h4 id="触发器例子"><a href="#触发器例子" class="headerlink" title="触发器例子"></a>触发器例子</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">create definer = root@`%` trigger bbbb</span><br><span class="line">    after update</span><br><span class="line">    on gungun_zuqiu_competition</span><br><span class="line">    for each row</span><br><span class="line">BEGIN</span><br><span class="line"></span><br><span class="line">		  DELETE from gungun_zuqiu_competitionTemp where old.`status`=-1;</span><br><span class="line">	IF</span><br><span class="line">		((old.s1+old.s2+old.half1+old.half2+old.yellow1+old.yellow2+old.red1+old.red2+old.corner1+old.corner2+old.control1+old.control2+old.door1+old.door2)</span><br><span class="line">		!=</span><br><span class="line">		(new.s1+new.s2+new.half1+new.half2+new.yellow1+new.yellow2+new.red1+new.red2+new.corner1+new.corner2+new.control1+new.control2+new.door1+new.door2))</span><br><span class="line">		or</span><br><span class="line">		(old.`status`!=new.`status`)</span><br><span class="line">		THEN</span><br><span class="line">		  DELETE from gungun_zuqiu_competitionTemp where id=new.id;</span><br><span class="line">			insert into gungun_zuqiu_competitionTemp  select * from gungun_zuqiu_competition where id =new.id;</span><br><span class="line">	END IF;</span><br><span class="line">END;</span><br></pre></td></tr></table></figure>
-
-
-
-
-      
-    </div>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2021/05/11/hello-world/">我的golang博客</a></h1>
-  
-
-      
-        <time datetime="2021-05-11T12:13:09.758Z">2021-05-11</time>
-      
-    </header>
-    <div class="entry">
-      
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
-
-
-
-
-
-
-<nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav></div></div>
-    <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="搜索">
-    <input type="hidden" name="q" value="site:gsd1508.github.io">
-  </form>
-</div>
-
-  
-<div class="widget tag">
-  <h3 class="title">最新文章</h3>
-  <ul class="entry">
-    
-      <li>
-        <a href="/2021/05/12/post/">post</a>
-      </li>
-    
-      <li>
-        <a href="/2021/05/11/golang交叉编译/">golang交叉编译</a>
-      </li>
-    
-      <li>
-        <a href="/2021/05/11/mysql设置sql 各种设置/">设置updateTime 时间触发器</a>
-      </li>
-    
-      <li>
-        <a href="/2021/05/11/hello-world/">我的golang博客</a>
-      </li>
-    
-  </ul>
+</nav>
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content ">
+                    
+<div class="carousel">
+    <a href="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=xs0pypd2" target="_blank">
+        <img src="/./img/head-img.jpg" alt="">
+    </a>
 </div>
 
 
-  
 
-  
-<div class="widget tagcloud">
-  <h3 class="title">标签云</h3>
-  <div class="entry">
-    <a href="/tags/golang/" style="font-size: 10px;">golang</a>
-  </div>
+
+<article class="post">
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2021/05/12/post/">
+                    post</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2021年05月12日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            我的妹妹····e2e2e2eq2eeqweqeqweselect * from gungun_zuqiu_odds where update_at = unix_timestamp(‘2019-12-11 13:00:31’);只取...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-none-link" href="/tags/golang/" rel="tag">golang</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2021/05/12/post/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2021/05/11/golang%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/">
+                    golang交叉编译</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2021年05月11日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            golang交叉编译```   测试下先
+
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2021/05/11/golang%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2021/05/11/mysql%E8%AE%BE%E7%BD%AEsql%20%E5%90%84%E7%A7%8D%E8%AE%BE%E7%BD%AE/">
+                    设置updateTime 时间触发器</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2021年05月11日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            12# 命令 alter table leisuDb.courtTableListOne modify column updateTimeAt timestamp NULL DEFAULT current_timestamp() ON...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2021/05/11/mysql%E8%AE%BE%E7%BD%AEsql%20%E5%90%84%E7%A7%8D%E8%AE%BE%E7%BD%AE/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2021/05/11/hello-world/">
+                    我的golang博客</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2021年05月11日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            Quick StartCreate a new post1$ hexo new &amp;quot;My New Post&amp;quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More in...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2021/05/11/hello-world/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+
+                </main>
+                
+                    
+<aside class="col-md-4 sidebar">
+    
+    
+<div class="widget">
+    <h3 class="title">
+        搜索
+    </h3>
+    <div id="search-form">
+        <div id="result-mask" class="hide"></div>
+        <div class="search-area">
+            
+            <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
+            <button type="button" class="search-form-submit" id="search-local">
+                站内搜索</button>
+            
+            
+        </div>
+        <div id="result-wrap" class="hide">
+            <div id="search-result"></div>
+        </div>
+        <div class="hide">
+            <template id="search-tpl">
+                <div class="item">
+                    <a href="/{path}" title="{title}">
+                        <div class="title">{title}</div>
+                        <div class="content">{content}</div>
+                    </a>
+                </div>
+            </template>
+        </div>
+    </div>
 </div>
 
+    
+    
+<div class="widget">
+    <h3 class="title">
+        网站公告
+    </h3>
+    <div class="notification">
+        <p>
+    主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
+    主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br/>
+    支持主题：<a target="_blank" rel="noopener" href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
+</p>
+    </div>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        社交
+    </h3>
+    <div class="content social">
+        
+        <a href="//github.com/shenliyang" rel="external nofollow" title="Github" target="_blank">
+            <i class="git fa fa-git"></i>
+        </a>
+        
+        <a href="mailto:snippet@91h5.cc" rel="external nofollow" title="邮箱" target="_blank">
+            <i class="envelope-o fa fa-envelope-o"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="联系QQ" target="_blank">
+            <i class="qq fa fa-qq"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="微信" target="_blank">
+            <i class="weixin fa fa-weixin"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="QQ群" target="_blank">
+            <i class="users fa fa-users"></i>
+        </a>
+        
+        <a href="/atom.xml" rel="external nofollow" title="RSS" target="_blank">
+            <i class="feed fa fa-feed"></i>
+        </a>
+        
+    </div>
+</div>
+
+    
+    
+    
+    
+<div class="widget">
+    <h3 class="title">
+        归档
+    </h3>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/"><i class="fa" aria-hidden="true">2021年05月</i></a><span class="archive-list-count">4</span></li></ul>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        标签云
+    </h3>
+    <div class="content tag-cloud">
+        
+        <a href="/tags/golang/" style="font-size: 10px;">golang</a>
+        
+    </div>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        友链
+    </h3>
+    <div class="content friends-link">
+        
+        <a href="https://hexo.io/zh-cn/" class="fa" target="_blank">
+            Hexo官网</a>
+        
+    </div>
+</div>
+
+    
 </aside>
-    <div class="clearfix"></div>
-  </div>
-  <footer id="footer" class="inner"><div class="alignleft">
-  
-  &copy; 2021 义薄云天
-  
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+<a id="back-to-top" class="icon-btn hide">
+    <i class="fa fa-chevron-up"></i>
+</a>
+    <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="busuanzi">
+    
 </div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+            </div>
+            <div class="col-sm-12">
+                <span>Copyright &copy;
+                    2017
+                    
+                </span> |
+                <span>
+                    Powered by <a href="//hexo.io" class="copyright-links" target="_blank" rel="nofollow">Hexo</a>
+                </span> |
+                <span>
+                    Theme by <a href="//github.com/shenliyang/hexo-theme-snippet.git" class="copyright-links" target="_blank" rel="nofollow">Snippet</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<script src="/js/search.js?rev=@@hash.js"></script>
+
+
+
+
+
+<script src="/js/app.js?rev=@@hash.js"></script>
 
 </body>
 </html>
-
