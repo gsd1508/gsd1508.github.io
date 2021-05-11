@@ -1,269 +1,173 @@
-
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#202020"/>
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+  <meta charset="utf-8">
+  
+  <title>忠爱golang</title>
+  <meta name="author" content="义薄云天">
+  
+  <meta name="description" content="this study golang book">
   
   
-    <meta name="keywords" content="golang" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="description" content="this study golang book" />
+  <meta property="og:site_name" content="忠爱golang"/>
+
   
+    <meta property="og:image" content=""/>
   
-  <link rel="icon" type="image/x-icon" href="/logo.png">
-  <title> [ 忠爱golang ]快乐学习</title>
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="忠爱golang" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
-    <!-- stylesheets list from config.yml -->
-    
-      <link rel="stylesheet" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css">
-    
-      <link rel="stylesheet" href="/css/xoxo.css">
-    
-  
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
 <body>
-  <div class="nav-container">
-    <nav class="home-menu pure-menu pure-menu-horizontal">
-  <a class="pure-menu-heading" href="/">
-    <img class="avatar" src="https://gsd1508.github.io/images/logo.png">
-    <span class="title">忠爱golang</span>
-  </a>
+  <header id="header"><div class="meta inner">
+  <h1><a href="/">忠爱golang</a></h1>
+  <h2><a href="/">快乐学习</a></h2>
+  <nav id="main-nav">
+    <ul>
+      
+      <li><a href="/about">关于</a></li>
+      
+      <li><a href="/archives">归类</a></li>
+      
+      <li><a href="/atom.xml">订阅</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title"><a href="/2021/05/11/golang交叉编译/">golang交叉编译</a></h1>
+  
 
-  <ul class="pure-menu-list clearfix">
       
-          
-            <li class="pure-menu-item actived"><a href="/" class="pure-menu-link">首页</a></li>
-          
+        <time datetime="2021-05-11T12:16:48.000Z">2021-05-11</time>
       
-          
-            <li class="pure-menu-item"><a href="/archives" class="pure-menu-link">归档</a></li>
-          
+    </header>
+    <div class="entry">
       
-          
-            <li class="pure-menu-item"><a href="/tags" class="pure-menu-link">标签</a></li>
-          
+        <h3 id="golang交叉编译"><a href="#golang交叉编译" class="headerlink" title="golang交叉编译"></a>golang交叉编译</h3><p>```<br>   测试下先</p>
+
       
-          
-            <li class="pure-menu-item"><a href="/search" class="pure-menu-link">搜索</a></li>
-          
+    </div>
       
-          
-            <li class="pure-menu-item"><a target="_blank" rel="noopener" href="https://0xff000000.com" class="pure-menu-link">关于</a></li>
-          
+        
+        
       
-          
-            <li class="pure-menu-item"><a href="/atom.xml" class="pure-menu-link">订阅</a></li>
-          
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
+  <article class="post">
+  <div class="post-content">
+    <header>
       
+  
+    <h1 class="title"><a href="/2021/05/11/hello-world/">我的golang博客</a></h1>
+  
+
+      
+        <time datetime="2021-05-11T12:13:09.758Z">2021-05-11</time>
+      
+    </header>
+    <div class="entry">
+      
+        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+      </footer>
+  </div>
+</article>
+
+
+
+
+
+
+<nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:gsd1508.github.io">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">最新文章</h3>
+  <ul class="entry">
+    
+      <li>
+        <a href="/2021/05/11/golang交叉编译/">golang交叉编译</a>
+      </li>
+    
+      <li>
+        <a href="/2021/05/11/hello-world/">我的golang博客</a>
+      </li>
+    
   </ul>
-   
-</nav>
-  </div>
-
-  <div class="container" id="content-outer">
-    <div class="inner" id="content-inner">
-      
-
-  <div class="recent-posts">
-    
-
-      <article class="recent-post-item">
-        <a class="title" href="/2021/05/11/golang交叉编译/"><h2>golang交叉编译</h2></a>
-        <div class="post-meta">
-          
-          <time class="time" datetime="2021-05-11T12:16:48.000Z">
-            2021-05-11
-          </time>
-          
-          <span class="slash">/</span>
-          
-          
-          
-
-        </div>
-
-        
-        <a class="more" href="/2021/05/11/golang交叉编译/"> 阅读全文〉</a>
-      </article>
-    
-
-      <article class="recent-post-item">
-        <a class="title" href="/2021/05/11/hello-world/"><h2>我的golang博客</h2></a>
-        <div class="post-meta">
-          
-          <time class="time" datetime="2021-05-11T12:13:09.758Z">
-            2021-05-11
-          </time>
-          
-          <span class="slash">/</span>
-          
-          
-          
-
-        </div>
-
-        
-        <a class="more" href="/2021/05/11/hello-world/"> 阅读全文〉</a>
-      </article>
-    
-  </div>
+</div>
 
 
-
-    </div>
-
-    
-
-  </div>
-  <footer class="footer text-center">
-    <div id="bottom-inner">
-        <a class="bottom-item" target="_blank" rel="noopener" href="https://blog.0xff000000.com">首页</a> |
-        <a class="bottom-item" href="https://0xff000000.com" target="_blank">主站</a> |
-        <a class="bottom-item" href="https://github.com/KevinOfNeu" target="_blank">GitHub</a> |
-        <a class="bottom-item" href="https://hexo.io" target="_blank">Powered by hexo</a> |
-        <a class="bottom-item" href="https://github.com/KevinOfNeu/hexo-theme-xoxo" target="_blank">Theme xoxo</a>
-    </div>
-</footer>
   
 
-<script>
-  (function(window, document, undefined) {
-
-    var timer = null;
-
-    function returnTop() {
-      cancelAnimationFrame(timer);
-      timer = requestAnimationFrame(function fn() {
-        var oTop = document.body.scrollTop || document.documentElement.scrollTop;
-        if (oTop > 0) {
-          document.body.scrollTop = document.documentElement.scrollTop = oTop - 50;
-          timer = requestAnimationFrame(fn);
-        } else {
-          cancelAnimationFrame(timer);
-        }
-      });
-    }
-
-    var hearts = [];
-    window.requestAnimationFrame = (function() {
-      return window.requestAnimationFrame ||
-        window.webkitRequestAnimationFrame ||
-        window.mozRequestAnimationFrame ||
-        window.oRequestAnimationFrame ||
-        window.msRequestAnimationFrame ||
-        function(callback) {
-          setTimeout(callback, 1000 / 60);
-        }
-    })();
-    init();
-
-    function init() {
-      css(".heart{z-index:9999;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
-      attachEvent();
-      gameloop();
-      addMenuEvent();
-    }
-
-    function gameloop() {
-      for (var i = 0; i < hearts.length; i++) {
-        if (hearts[i].alpha <= 0) {
-          document.body.removeChild(hearts[i].el);
-          hearts.splice(i, 1);
-          continue;
-        }
-        hearts[i].y--;
-        hearts[i].scale += 0.004;
-        hearts[i].alpha -= 0.013;
-        hearts[i].el.style.cssText = "left:" + hearts[i].x + "px;top:" + hearts[i].y + "px;opacity:" + hearts[i].alpha + ";transform:scale(" + hearts[i].scale + "," + hearts[i].scale + ") rotate(45deg);background:" + hearts[i].color;
-      }
-      requestAnimationFrame(gameloop);
-    }
-
-    /**
-     * 给logo设置点击事件
-     * 
-     * - 回到顶部
-     * - 出现爱心
-     */
-    function attachEvent() {
-      var old = typeof window.onclick === "function" && window.onclick;
-      var logo = document.getElementById("logo");
-      if (logo) {
-        logo.onclick = function(event) {
-          returnTop();
-          old && old();
-          createHeart(event);
-        }
-      }
-      
-    }
-
-    function createHeart(event) {
-      var d = document.createElement("div");
-      d.className = "heart";
-      hearts.push({
-        el: d,
-        x: event.clientX - 5,
-        y: event.clientY - 5,
-        scale: 1,
-        alpha: 1,
-        color: randomColor()
-      });
-      document.body.appendChild(d);
-    }
-
-    function css(css) {
-      var style = document.createElement("style");
-      style.type = "text/css";
-      try {
-        style.appendChild(document.createTextNode(css));
-      } catch (ex) {
-        style.styleSheet.cssText = css;
-      }
-      document.getElementsByTagName('head')[0].appendChild(style);
-    }
-
-    function randomColor() {
-      // return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
-      return "#F44336";
-    }
-
-    function addMenuEvent() {
-      var menu = document.getElementById('menu-main-post');
-      if (menu) {
-        var toc = document.getElementById('toc');
-        if (toc) {
-          menu.onclick = function() {
-            if (toc) {
-              if (toc.style.display == 'block') {
-                toc.style.display = 'none';
-              } else {
-                toc.style.display = 'block';
-              }
-            }
-          };
-        } else {
-          menu.style.display = 'none';
-        }
-      }
-    }
-
-  })(window, document);
-</script>
-
   
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2021 义薄云天
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
 
 </body>
 </html>
+
