@@ -22,13 +22,7 @@
 <meta name="keywords" content="golang" />
 
 
-<meta name="description" content="本地初始化git文件夹12# 命令 git init
-
-查看本地项目 git状态12# 命令git status
-
-添加文件到暂存区12#命令git add .
-
-提交暂存区中的内容到本地仓库1..." />
+<meta name="description" content="数据库导出表结构123第一：选择你要导出的数据第二：点击右键选择Export with mysqldump  第三：选择mysql 安装的位置的 mysqldump.exe文件的路径，默认勾选的..." />
 
 
 <meta name="robots" content="all" />
@@ -39,7 +33,7 @@
 
 <title>
     
-    categories |
+    DataGrip备份数据库 |
     
     忠爱golang
 </title>
@@ -142,100 +136,122 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div>
-    
-    <article class="post">
-        <h1 class="post-head">共计
-            0个分类</h1>
-        <div class="post-body">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="DataGrip备份数据库">
             
-        </div>
-    </article>
+            DataGrip备份数据库
+            
+        </h1>
+        <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta">
+            2021/05/12</span>
+    </span>
+    
     
 </div>
+        
+        
+    </div>
+    
+    <div class="post-body post-content">
+        <h4 id="数据库导出表结构"><a href="#数据库导出表结构" class="headerlink" title="数据库导出表结构"></a>数据库导出表结构</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">第一：选择你要导出的数据</span><br><span class="line">第二：点击右键选择Export with mysqldump  第三：选择mysql 安装的位置的 mysqldump.exe文件的路径，默认勾选的不用管他</span><br><span class="line">第四：导出outPath路径设置 /Users/faker/Desktop/pts1.sql </span><br></pre></td></tr></table></figure>
+
+<h4 id="面的指令设置："><a href="#面的指令设置：" class="headerlink" title="面的指令设置："></a>面的指令设置：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wxLogin -d --column-statistics=0 --result-file=&quot;/Users/faker/Desktop/pts1.sql&quot;</span><br><span class="line">wxLogin：是要导出的数据名字</span><br><span class="line">-d：表示你要导出表结构不包含数据</span><br><span class="line">--column-statistics=0：表示如果本地数据库版本过高，远程数据库过低 就需要加入这句话，否者导出的数据库会报错</span><br></pre></td></tr></table></figure>
+
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+            转载声明：
+            商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+            
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+<div class="article-nav prev-next-wrap clearfix">
+    
+    <a href="/2021/05/12/Git%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C/" class="pre-post btn btn-default" title='Git配置操作'>
+        <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
+        <span class="hidden-xs">
+            Git配置操作</span>
+    </a>
+    
+    
+    <a href="/2021/05/12/docker%E9%85%8D%E7%BD%AENginx/" class="next-post btn btn-default" title='docker配置Nginx'>
+        <span class="hidden-lg">下一篇</span>
+        <span class="hidden-xs">
+            docker配置Nginx</span><i class="fa fa-angle-right fa-fw"></i>
+    </a>
+    
+</div>
+
+<div id="comments">
+    
+
+<div id="vcomments" class="valine"></div>
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+<script>
+new Valine({
+    av: AV,
+    el: '#vcomments',
+    appId: 'xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz',
+    appKey: 'erIpQac4azoCmgfBB7Dl9maa',
+    placeholder: '说点什么吧',
+    notify: false,
+    verify: true,
+    avatar: 'mm',
+    meta: 'nick,mail'.split(','),
+    pageSize: '10',
+    path: window.location.pathname,
+    lang: 'zh-CN'.toLowerCase()
+})
+</script>
+
+
+</div>
+
                 </main>
                 
-                    
-<aside class="col-md-4 sidebar">
-    
-    
-<div class="widget">
-    <h3 class="title">
-        搜索
-    </h3>
-    <div id="search-form">
-        <div id="result-mask" class="hide"></div>
-        <div class="search-area">
-            
-            <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
-            <button type="button" class="search-form-submit" id="search-local">
-                站内搜索</button>
-            
-            
-        </div>
-        <div id="result-wrap" class="hide">
-            <div id="search-result"></div>
-        </div>
-        <div class="hide">
-            <template id="search-tpl">
-                <div class="item">
-                    <a href="/{path}" title="{title}">
-                        <div class="title">{title}</div>
-                        <div class="content">{content}</div>
-                    </a>
-                </div>
-            </template>
-        </div>
-    </div>
-</div>
-
-    
-    
-<div class="widget">
-    <h3 class="title">
-        网站公告
-    </h3>
-    <div class="notification">
-        <p>
-
-    暂无任何公告！
-</p>
-    </div>
-</div>
-
-    
-    
-    
-    
-    
-    
-<div class="widget">
-    <h3 class="title">
-        归档
-    </h3>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/"><i class="fa" aria-hidden="true">2021年05月</i></a><span class="archive-list-count">1</span></li></ul>
-</div>
-
-    
-    
-    
-    
-<div class="widget">
-    <h3 class="title">
-        友链
-    </h3>
-    <div class="content friends-link">
+                    <aside id="article-toc" role="navigation" class="col-md-4">
+    <div class="widget">
+        <h3 class="title">
+            文章目录
+        </h3>
         
-        <a href="https://wan167.com" class="fa" target="_blank">
-            玩酷直播</a>
+        <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%BC%E5%87%BA%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-text">数据库导出表结构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%A2%E7%9A%84%E6%8C%87%E4%BB%A4%E8%AE%BE%E7%BD%AE%EF%BC%9A"><span class="toc-text">面的指令设置：</span></a></li></ol>
         
     </div>
-</div>
-
-    
 </aside>
-
                 
             </div>
         </div>
@@ -272,10 +288,6 @@
         </div>
     </div>
 </div>
-
-
-<script src="/js/search.js?rev=@@hash.js"></script>
-
 
 
 

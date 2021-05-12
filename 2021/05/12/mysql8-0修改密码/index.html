@@ -22,13 +22,7 @@
 <meta name="keywords" content="golang" />
 
 
-<meta name="description" content="本地初始化git文件夹12# 命令 git init
-
-查看本地项目 git状态12# 命令git status
-
-添加文件到暂存区12#命令git add .
-
-提交暂存区中的内容到本地仓库1..." />
+<meta name="description" content="mysql8.0+修改密码123456use mysql;update user set authentication_string=&#x27;&#x27; where user=&#x27;..." />
 
 
 <meta name="robots" content="all" />
@@ -39,7 +33,7 @@
 
 <title>
     
-    categories |
+    mysql8.0修改密码 |
     
     忠爱golang
 </title>
@@ -142,100 +136,120 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div>
-    
-    <article class="post">
-        <h1 class="post-head">共计
-            0个分类</h1>
-        <div class="post-body">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="mysql8.0修改密码">
             
-        </div>
-    </article>
+            mysql8.0修改密码
+            
+        </h1>
+        <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta">
+            2021/05/12</span>
+    </span>
+    
     
 </div>
+        
+        
+    </div>
+    
+    <div class="post-body post-content">
+        <h3 id="mysql8-0-修改密码"><a href="#mysql8-0-修改密码" class="headerlink" title="mysql8.0+修改密码"></a>mysql8.0+修改密码</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">use mysql;</span><br><span class="line">update user set authentication_string=&#x27;&#x27; where user=&#x27;root&#x27;;  -- 将字段置为空</span><br><span class="line">ALTER USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED WITH mysql_native_password BY &#x27;wqkj#@~8&amp;@$%&amp;&#x27;;</span><br><span class="line">ALTER user &#x27;root&#x27;@&#x27;localhost&#x27; IDENTIFIED BY &#x27;wqkj#@~8&amp;@$%&amp;&#x27;; -- 修改密码为root</span><br><span class="line">flush privileges;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+            转载声明：
+            商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+            
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+<div class="article-nav prev-next-wrap clearfix">
+    
+    <a href="/2021/05/12/Linux%E5%AE%89%E8%A3%85docker/" class="pre-post btn btn-default" title='Linux安装docker'>
+        <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
+        <span class="hidden-xs">
+            Linux安装docker</span>
+    </a>
+    
+    
+    <a href="/2021/05/12/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="next-post btn btn-default" title='Linux常用命令'>
+        <span class="hidden-lg">下一篇</span>
+        <span class="hidden-xs">
+            Linux常用命令</span><i class="fa fa-angle-right fa-fw"></i>
+    </a>
+    
+</div>
+
+<div id="comments">
+    
+
+<div id="vcomments" class="valine"></div>
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+<script>
+new Valine({
+    av: AV,
+    el: '#vcomments',
+    appId: 'xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz',
+    appKey: 'erIpQac4azoCmgfBB7Dl9maa',
+    placeholder: '说点什么吧',
+    notify: false,
+    verify: true,
+    avatar: 'mm',
+    meta: 'nick,mail'.split(','),
+    pageSize: '10',
+    path: window.location.pathname,
+    lang: 'zh-CN'.toLowerCase()
+})
+</script>
+
+
+</div>
+
                 </main>
                 
-                    
-<aside class="col-md-4 sidebar">
-    
-    
-<div class="widget">
-    <h3 class="title">
-        搜索
-    </h3>
-    <div id="search-form">
-        <div id="result-mask" class="hide"></div>
-        <div class="search-area">
-            
-            <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
-            <button type="button" class="search-form-submit" id="search-local">
-                站内搜索</button>
-            
-            
-        </div>
-        <div id="result-wrap" class="hide">
-            <div id="search-result"></div>
-        </div>
-        <div class="hide">
-            <template id="search-tpl">
-                <div class="item">
-                    <a href="/{path}" title="{title}">
-                        <div class="title">{title}</div>
-                        <div class="content">{content}</div>
-                    </a>
-                </div>
-            </template>
-        </div>
-    </div>
-</div>
-
-    
-    
-<div class="widget">
-    <h3 class="title">
-        网站公告
-    </h3>
-    <div class="notification">
-        <p>
-
-    暂无任何公告！
-</p>
-    </div>
-</div>
-
-    
-    
-    
-    
-    
-    
-<div class="widget">
-    <h3 class="title">
-        归档
-    </h3>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/05/"><i class="fa" aria-hidden="true">2021年05月</i></a><span class="archive-list-count">1</span></li></ul>
-</div>
-
-    
-    
-    
-    
-<div class="widget">
-    <h3 class="title">
-        友链
-    </h3>
-    <div class="content friends-link">
+                    <aside id="article-toc" role="navigation" class="col-md-4">
+    <div class="widget">
+        <h3 class="title">
+            文章目录
+        </h3>
         
-        <a href="https://wan167.com" class="fa" target="_blank">
-            玩酷直播</a>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#mysql8-0-%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81"><span class="toc-text">mysql8.0+修改密码</span></a></li></ol>
         
     </div>
-</div>
-
-    
 </aside>
-
                 
             </div>
         </div>
@@ -272,10 +286,6 @@
         </div>
     </div>
 </div>
-
-
-<script src="/js/search.js?rev=@@hash.js"></script>
-
 
 
 
